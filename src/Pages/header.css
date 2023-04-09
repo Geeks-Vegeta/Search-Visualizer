@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+
+.bg_color{
+    background-color: #DEC7F1;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.components-lists ul{
+    list-style-type: none;
+    display: flex;
+}
+.components-lists ul li{
+    margin: 0rem 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+li:hover{
+    color: rgb(6, 52, 255);
+}
