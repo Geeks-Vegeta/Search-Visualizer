@@ -230,10 +230,10 @@ const Algo=()=>{
         </MDBModal>
 
 
-        <MDBContainer fluid className="bg_color p-2" >
+        <MDBContainer fluid className="bg_color p-2 shadow-lg" >
             <div className="navs-headers">
                 <div className="heading">
-                    <h4>Searching Visualizer</h4>
+                    <h4 className="coal">Searching Visualizer</h4>
 
                     <div className="about_tut">
                        <MDBTooltip tag='a' wrapperProps={{ href: '#' }} placement='bottom' title='tutorial'>
@@ -259,23 +259,23 @@ const Algo=()=>{
                 <div className="components-lists">
                 <ul>
                     <Link to="/algo">
-                        <li
+                        <li className="algo-selected"
                         onClick={()=>setAlgo('Linear')}>Linear
                         </li>
                     </Link>
                     <Link to="/algo">
-                        <li onClick={()=>setAlgo('Binary')}>Binary
+                        <li className="algo-selected" onClick={()=>setAlgo('Binary')}>Binary
                         </li>
                     </Link>
                     <li onClick={toggleShow}>Add Data</li>
                     <li onClick={ClearBoard}>Clear Board</li>
                     <li>
-                        <span>Algo Selected: {algo}</span>
+                        <span className="algo-selected">Algo Selected: {algo}</span>
                     </li>
                     <li>
                         {algo==='Linear'?(
                             <>
-                            <span className="visualbutton" onClick={()=>{
+                            <span className="visualbutton algo-selected" onClick={()=>{
                             setStart(true);
                             BuildArrayLinear();
                         }}>Start Visualizing Linear</span>
