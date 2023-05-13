@@ -278,14 +278,14 @@ const Algo=()=>{
                             <span className="visualbutton algo-selected" onClick={()=>{
                             setStart(true);
                             BuildArrayLinear();
-                        }}>Start Visualizing Linear</span>
+                        }}>Start</span>
                             </>
                         ):(
                             <>
                             <span className="visualbutton" onClick={()=>{
                             setStart(true);
                             BuildArrayBianry();
-                        }}>Start Visualizing Binary</span>
+                        }}>Start</span>
                             </>
                         )}
                         

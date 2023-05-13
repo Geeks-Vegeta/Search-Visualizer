@@ -36,3 +36,23 @@ li:hover{
 .algo-selected{
     color: darkslategrey;
 }
+
+
+@media (min-width:320px)  { 
+    .heading{
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    .bg_color{
+        background-color: #9e2eee5e;
+    }
+    .components-lists ul li{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 12px;
+    }
+  
+}
