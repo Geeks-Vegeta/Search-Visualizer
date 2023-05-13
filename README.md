@@ -9,4 +9,4 @@ Search visualizer will help you to visualize searching algorithm.
 
 ### Binary Search Visualizer
 
-![ezgif com-video-to-gif(2)](https://github.com/Geeks-Vegaeta/Search-Visualizer/assets/89457811/0939cb1d-5574-4ad3-a5a6-a780a6eef1fb)
+![ezgif com-video-to-gif(2)](https://github.com/Geeks-Vegeta/Search-Visualizer/assets/89457811/b6ef0308-f055-4eda-9bd1-8e1a54e9596d)
